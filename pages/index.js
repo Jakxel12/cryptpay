@@ -11,9 +11,9 @@ export default function Home() {
           <ul className="menu menu-horizontal bg-base-150">
           <li><a href="/"><div>Home</div></a></li>
   <li><a href="/news"><div >News</div></a> </li>
-  <li><a href="/currency"><div>Currency Change</div></a></li>
+  <li><a href="/courrency"><div>Currency Change</div></a></li>
   <li><a href="/profile">Profile</a></li>
-  <li><a href="/aboutus">About us</a></li>
+  <li><a href="/about_us">About us</a></li>
 </ul>
           <div class="form-control">
   <div class="input-group">
@@ -130,7 +130,7 @@ export default function Home() {
         </div>
         <div className="text-center"> {/* Aquí aplicamos el estilo text-center para centrar horizontalmente */}
          <button className="bg-blue-500 text-white px-4 py-2 rounded-md mt-4">
-         <a href="/login">Regístrate</a>
+         <a href="/login">Sing Up</a>
         </button>
         </div>
 

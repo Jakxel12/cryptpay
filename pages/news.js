@@ -28,6 +28,34 @@ export default function Home() {
         <div className="relative flex place-items-center before:absolute before:h-[480px] before:w-[800px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[240px] after:w-[320px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700/10 after:dark:from-sky-900 after:dark:via-[#0141ff]/40 before:lg:h-[600px]">
 </div>
       </div>
+      <div className="carousel carousel-end rounded-box">
+  <div className="carousel-item">
+    <img src="https://media.istockphoto.com/id/1248674191/es/foto/gráfico-de-comercio-criptomoneda-de-oro-bitcoin.jpg?s=612x612&w=0&k=20&c=d9M9PsGvHKU9hazr6K4h2e29VIP1amT34Z_lbzgCfhc=" alt="bitcoin" width = "500" height= "300"/>
+  </div> 
+  <div className="carousel-item">
+    <img src="https://i0.wp.com/criptotendencia.com/wp-content/uploads/2021/05/Solana-SOL-marca-un-nuevo-maximo-historico-mientras-el-mercado-retrocede.jpg?fit=1200%2C800&ssl=1" alt="Solana" width = "500" height= "300"/>
+  </div> 
+  <div className="carousel-item">
+    <img src="https://www.esic.edu/sites/default/files/rethink/544d3ca8-moneda-ethereum.jpg" alt="ethereum" width = "500" height= "300"/>
+  </div> 
+</div>
+<div>
+      <section className="my-8">
+        <h2 className="text-2xl font-semibold text-center">What it happens now?</h2>
+        <div className="text-gray-700 text-center">
+        CryptPay is a cryptocurrency management platform that allows you to make transactions, manage your cryptocurrency portfolio, and get up-to-date information on the cryptocurrency market.
+        </div>
+      </section>
+
+      <section className="my-8">
+        <h2 className="text-2xl font-semibold text-center">Bitcoin Hovers Above $27.4K; XRP Notches Win, Solana Token Slides</h2>
+        <ul className="list-disc list-inside text-gray-700 text-center">
+        Bitcoin (BTC) lost 0.7% while crypto majors showed mixed movements as low volatility seemed to return to the crypto markets, days after ETF optimism pushed prices higher.
+        <p>The largest cryptocurrency by market value traded at $27,400 on Wednesday, seemingly stabilizing around that level after losing support at $28,000 earlier this week. Ether (ETH) lost 1.3%, Solana’s SOL</p>
+        <p>fell 3.5% to lead majors losses, while Cardano’s ADA and BNB Chain’s BNB slipped 2% each in the past 24 hours.</p>
+        </ul>
+      </section>
+      </div>
       
     <footer class="footer p-10 bg-base-300 text-base-content">
   <nav>
